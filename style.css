@@ -1,0 +1,78 @@
+.btn-facebook {
+    border-color: rgba(0,0,0,0);
+    background: #3B5998;
+    color: #fff;
+}
+.btn-instagram {
+    border-color: rgba(0,0,0,0);
+    background: #000;
+    color: #fff;
+}
+ul#comments li.comment {
+    border: 1px solid lightgray;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+ul.list-inline li {
+    display: inline-block;
+}
+.margin-container {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.votes {
+	position: absolute;
+	top: 10px;
+}
+.carousel-overflow {
+	overflow-x: hidden;
+	overflow-y: visible;
+}
+.carousel-control-prev.indicator,
+.carousel-control-next.indicator {
+	width: fit-content !important;
+    height: fit-content !important;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+}
+.carousel-control-prev {
+    left: 20px !important;
+}
+.carousel-control-next {
+    right: 20px !important;
+}
+.btn-vote {
+	cursor: pointer;
+    border: none;
+    background-color: rgb(1 173 254);
+    color: white;
+}
+.btn-delete {
+    cursor: pointer;
+    border: none;
+    background-color: #cb2727;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+#carouselCompetitions .badge.badge-primary {
+	position: absolute;
+    top: 10px;
+    width: 70px;
+    background-color: #df7b50;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 0px;
+}
+#carouselCompetitions img {
+	width: 100%;
+	height: 300px;
+    object-fit: cover;
+}
+#carouselCompetitions .card-body {
+    padding: 0px;
+}
