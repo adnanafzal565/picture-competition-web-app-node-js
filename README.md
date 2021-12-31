@@ -26,10 +26,42 @@ Users can search competitions by the name of competitors. Data is filtered and r
 # 4. Sort
 Users can also sort the competitions by any of the following for sorting functions:
 
-* Highest votes to lowest.
-* Lowest votes to highest.
-* Oldest to newest.
-* Newest to oldest (default).
+- Highest votes to lowest.
+- Lowest votes to highest.
+- Oldest to newest.
+- Newest to oldest (default).
+
+# 5. Vote on Competition
+Logged-in users can vote on the competition. You can either vote on one of the competitors. Once the vote is cast on one competitor, it cannot be removed. Also, you can cast your vote on only one of the competitors, not on both of them. It is also real-time, as soon as the vote is cast, it will automatically be displayed to all the users and the counter is incremented. The counter displays the number of votes cast on each competitor.
+
+![Votes](screenshots/Votes.png?raw=true "Votes")
+
+# 6. Delete Competition
+Competitions can only be deleted by either of the users who created the competition, or by the admin. Once the competition is deleted, all the uploaded images will be deleted too. As soon as the competition is deleted, it will automatically be removed from all the other users too, without having them refresh the page.
+
+# 7. Realtime Update using Sockets
+Sockets are used for real-time communication. Instead of fetching the data from the server after regular intervals, sockets attach listeners to the client-side. Listeners are listening to the events sent from the server. The server will emit the event and the client will listen to that event and respond accordingly. In this project, sockets are used for the following features:
+
+- When competition is created.
+- When competition is deleted.
+- To increase the counter after vote is casted to the competition.
+- Notifications.
+
+# 8. Notifications
+When a competition is deleted by the admin, the admin will write the reason for the deletion. Thus, a notification will be sent to the user along with the reason why his competition was removed. By default, notification status is “unread” and they are highlighted. As soon as the user clicks on any of the notifications, that notification will be marked as “read” and it will no longer be highlighted.
+
+![Notifications](screenshots/Notifications.png?raw=true "Notifications")
+
+# 9. Load More Button
+When the data in the database increases, it is not feasible to load all the data in a single AJAX request. So a “load more” button is created to solve this problem. For example, 10 records are fetched in the first AJAX request. The next 10 records will be fetched when the “load more” button is clicked, and so on.
+
+![Load-More](screenshots/Load-More.png?raw=true "Load-More")
+
+# 10. Admin Panel
+Admin panel is created so you (administrator) can delete any competition you find offensive. The default email and password of admin are:
+
+> email = admin@gmail.com
+> password = admin
 
 Tutorial:
 https://adnan-tech.com/create-a-picture-competition-website-in-express-js-mevn/
