@@ -113,3 +113,6 @@ This is not a feature of the project, but it is a free service provided for the 
 
 Tutorial:
 https://adnan-tech.com/create-a-picture-competition-website-in-express-js-mevn/
+
+Purchase Now:
+https://adnan-tech.com/picture-competition-web-app-node-js-mongo-db-vue-js/
