@@ -2,7 +2,7 @@
 
 Picture Competition is a mobile responsive real-time web application developed in Node JS and Mongo DB. Its frontend is designed in Bootstrap and Vue JS. You can create competition between 2 people and the others can vote on the person based on looks or skills etc.
 
-1. Login and Registration
+# 1. Login and Registration
 It uses login authentication using JWT (JsonWebToken). It does not use the browser session due to the following reasons:
 
 Sessions are destroyed once your app is restarted from terminal.
