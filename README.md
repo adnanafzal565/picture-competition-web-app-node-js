@@ -111,8 +111,5 @@ User can also change their account password. In order to change the password, th
 # 19. Free Customer Support
 This is not a feature of the project, but it is a free service provided for the premium version only. That means if you find any difficulty in installing or configuring the project, we will help you install it. Also, if you encounter any error or a bug in the released version, then it can be fixed too.
 
-Tutorial:
+Documentation:
 https://adnan-tech.com/create-a-picture-competition-website-in-express-js-mevn/
-
-Purchase Now:
-https://adnan-tech.com/picture-competition-web-app-node-js-mongo-db-vue-js/
